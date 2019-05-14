@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Messenger Dark Theme",
+  "version": "0.1.5",
+
+  "description": "Enable dark mode in inbrowser messenger.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.messenger.com/*"],
+      "css":["styles.css"]
+    }
+  ],
+
+}

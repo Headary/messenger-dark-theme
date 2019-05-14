@@ -1,0 +1,133 @@
+:root {
+  --background-color: #222222;
+  --text-color: #efefef;
+  --darkspot: #1a1a1a;
+  --highlight: #404040;
+}
+
+/* whole page */
+._4sp8 {
+  background-color: var(--background-color) !important;
+}
+
+._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e, ._3oh-, ._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh, ._2y8z, ._286b, ._682i, ._2d0c, ._2p_d,
+._79da, ._2jnv, ._4rpj, ._5qsj, a, ._4k7a, ._67tw {
+  color: var(--text-color) !important;
+}
+
+._6ybk>a {
+  color: var(--text-color) !important;
+}
+
+/* messages */
+._hh7{
+  background-color: var(--darkspot);
+  color: var(--text-color) !important;
+}
+
+._3058._ui9._hh7 {
+  background-color: var(--darkspot);
+  color: var(--text-color) !important;
+}
+
+._hh7._6ybn._2f5r, ._2poz._52mr {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--text-color) !important;
+}
+
+/* file in a message*/
+._2azv, .__6j {
+  background-color: var(--darkspot);
+  color: var(--text-color) !important;
+}
+
+/* emojis, games etc. tabs*/
+._53ij, ._5r8a._5r8b, ._3z53, ._5f0v._3rh0.uiScrollableArea, ._4lh2, ._4lh7, ._30h0, ._682j {
+  background-color: var(--darkspot) !important;
+  color: var(--text-color) !important;
+}
+
+/* reactions */
+._aou, ._4kf5 {
+  background-color: var(--highlight);
+  color: var(--text-color) !important;
+}
+
+/* selected tabs in emoji manu */
+._1uwz {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* link in standalone messange */
+._52mr._4skb {
+  background-color: var(--darkspot);
+}
+
+.__6k, .__6l, .__6m {
+  color: var(--text-color) !important;
+}
+
+/* links in write message field*/
+.chatAttachmentShelf, ._324d {
+  background-color: var(--darkspot) !important;
+  border-color: var(--darkspot) !important;
+  color: var(--text-color) !important;
+}
+
+/* image background */
+._3m31 {
+  background-color: var(--background-color) !important;
+  border-color: var(--background-color) !important;
+}
+
+/* Image scrollbar ending */
+._4dfu {
+  background-image: linear-gradient(to right, var(--background-color), var(--highlight), var(--background-color)) !important;
+}
+/* scrollbar */
+.uiScrollableAreaTrack {
+  background-color: #3e3e3e !important;
+}
+
+._4gd0 {
+  background-color: var(--background-color) !important;
+}
+
+/* sereachresults */
+._3q34, ._3q35, ._3xcx, ._4g0h {
+  color: var(--text-color) !important;
+}
+
+/*Icons*/
+a._4rv6, a._4ce_, ._53io {
+  opacity: 0.6 !important;
+  filter: invert(100%) !important;
+}
+
+.sp_DRWiQpFHw7f, ._23ct, ._2t5t {
+  filter: invert(100%) !important;
+}
+
+.sp_DRWiQpFHw7f.sx_b648b0 {
+  filter: invert(0%) !important;
+}
+
+/* search bar*/
+._58al, ._58al::placeholder {
+  background-color: var(--darkspot) !important;
+  color: var(--text-color) !important;
+}
+
+/* Stories */
+._1sk5 {
+  box-shadow: 0 2px 1px var(--darkspot), 0 -1px 0 var(--darkspot)
+}
+._1sk6 {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+._1suk {
+  color: var(--text-color) !important;
+}
