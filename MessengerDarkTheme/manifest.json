@@ -10,6 +10,6 @@
       "matches": ["*://*.messenger.com/*"],
       "css":["styles.css"]
     }
-  ],
+  ]
 
 }
