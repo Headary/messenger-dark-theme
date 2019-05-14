@@ -19,6 +19,11 @@
   color: var(--text-color) !important;
 }
 
+/* borders */
+._1t2u, ._673w, ._4_j5, ._4rv3 {
+  border-color: var(--darkspot);
+}
+
 /* messages */
 ._hh7{
   background-color: var(--darkspot);
