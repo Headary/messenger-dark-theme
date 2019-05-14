@@ -163,3 +163,8 @@ a._4rv6, a._4ce_, ._53io {
 ._4rlt {
   background-color: var(--highlight) !important;
 }
+
+/* settings borders */
+._374b, ._2c9i ._4ebz {
+  border-color: var(--darkspot);
+}
