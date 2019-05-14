@@ -131,3 +131,30 @@ a._4rv6, a._4ce_, ._53io {
 ._1suk {
   color: var(--text-color) !important;
 }
+
+/* -- Menu and settings -- */
+._54ng {
+  background-color: var(--darkspot) !important;
+}
+
+._54nh {
+  color: var(--text-color) !important;
+}
+
+._2i-c ._54ne ._54nh, ._2i-c ._54ne ._54nc, ._2i-c ._54ne, ._54ne {
+  background-color: var(--highlight) !important;
+}
+
+/* Settings */
+._4eby, ._59s7 {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+._374c, ._19jt, ._6cs7, ._4ng2 {
+  color: var(--text-color) !important;
+}
+
+._4rlt {
+  background-color: var(--highlight) !important;
+}
