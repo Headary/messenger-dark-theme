@@ -99,9 +99,23 @@
   background-color: var(--background-color) !important;
 }
 
-/* sereachresults */
-._3q34, ._3q35, ._3xcx, ._4g0h {
+/* search bar*/
+._58al, ._58al::placeholder {
+  background-color: var(--darkspot) !important;
   color: var(--text-color) !important;
+}
+
+/* search results */
+._3q34, ._3q35, ._7u0a, ._3xcx, ._4g0h, ._7s4e {
+  color: var(--text-color) !important;
+}
+
+._7u0a {
+  font-weight: bold;
+}
+
+._225b {
+  background-color: var(--darkspot);
 }
 
 /*Icons*/
@@ -110,18 +124,12 @@ a._4rv6, a._4ce_, ._53io {
   filter: invert(100%) !important;
 }
 
-.sp_DRWiQpFHw7f, ._23ct, ._2t5t {
+.sp_DRWiQpFHw7f, ._23ct, ._2t5t, .sp_nKFWmcbA0s9_1_5x {
   filter: invert(100%) !important;
 }
 
 .sp_DRWiQpFHw7f.sx_b648b0 {
   filter: invert(0%) !important;
-}
-
-/* search bar*/
-._58al, ._58al::placeholder {
-  background-color: var(--darkspot) !important;
-  color: var(--text-color) !important;
 }
 
 /* Stories */
