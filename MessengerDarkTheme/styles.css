@@ -11,7 +11,7 @@
 }
 
 ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e, ._3oh-, ._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh, ._2y8z, ._286b, ._682i, ._2d0c, ._2p_d,
-._79da, ._2jnv, ._4rpj, ._5qsj, a, ._4k7a, ._67tw {
+._79da, ._2jnv, ._4rpj, ._5qsj, a, ._4k7a, ._67tw, ._7ht_, ._6-xo {
   color: var(--text-color) !important;
 }
 
@@ -46,6 +46,10 @@
   color: var(--text-color) !important;
 }
 
+/*like emoji*/
+._2poz._ui9 > svg > rect {
+  fill: var(--background-color) !important;
+}
 /* emojis, games etc. tabs*/
 ._53ij, ._5r8a._5r8b, ._3z53, ._5f0v._3rh0.uiScrollableArea, ._4lh2, ._4lh7, ._30h0, ._682j {
   background-color: var(--darkspot) !important;
@@ -56,6 +60,10 @@
 ._aou, ._4kf5 {
   background-color: var(--highlight);
   color: var(--text-color) !important;
+}
+
+._yav{
+  filter: invert(1);
 }
 
 /* selected tabs in emoji manu */
@@ -119,17 +127,52 @@
 }
 
 /*Icons*/
-a._4rv6, a._4ce_, ._53io {
+a._4rv6, a._4ce_ {
   opacity: 0.6 !important;
   filter: invert(100%) !important;
 }
 
-.sp_DRWiQpFHw7f, ._23ct, ._2t5t, .sp_nKFWmcbA0s9_1_5x, .sp_nKFWmcbA0s9 {
+._53io {
+  opacity: 0.6 !important;
+}
+
+._1r_9 ._53ik ._53io {
+  opacity: 0.6 !important;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/ucMaqGJtibF.png);
+  background-position: -16px -138px;
+}
+
+.sp_DRWiQpFHw7f, ._23ct, ._2t5t, .sp_nKFWmcbA0s9_1_5x, .sp_sbxFxdCZjuj, ._1z_2>svg, ._1z_2, ._53il ._558b + ._53io {
   filter: invert(100%) !important;
+}
+
+._3-wv._7i2n:hover, ._2rvp._7i2l:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+._1z_2>a{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#settings, #compose {
+  filter: invert(100%) !important;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .sp_DRWiQpFHw7f.sx_b648b0 {
   filter: invert(0%) !important;
+}
+
+._5blh>svg>g>g{
+    fill: var(--text-color);
+}
+
+/* Block account, ignore etc. icons*/
+._6ybv, ._6y56, ._6ybz, ._7hu0, ._7hu1, ._7hty {
+    background-color: var(--highlight);
+}
+
+._6ybv > svg, ._6y56 > svg, ._6ybz > svg, ._7hu0 > svg, ._7hu1 > svg, ._7hty > svg{
+    filter: invert(100%) !important;
 }
 
 /* Stories */

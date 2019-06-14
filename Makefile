@@ -1,7 +1,4 @@
-
-all: build
-
-build:
+messenger-dark-theme.zip: MessengerDarkTheme/styles.css MessengerDarkTheme/manifest.json
 	cd MessengerDarkTheme; \
 	zip -ur messenger-dark-theme.zip *; \
 	cd ..; \
