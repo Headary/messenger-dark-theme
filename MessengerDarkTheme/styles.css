@@ -6,12 +6,12 @@
 }
 
 /* whole page */
-._4sp8 {
+._4sp8, ._5f0v {
   background-color: var(--background-color) !important;
 }
 
 ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e, ._3oh-, ._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh, ._2y8z, ._286b, ._682i, ._2d0c, ._2p_d,
-._79da, ._2jnv, ._4rpj, ._5qsj, a, ._4k7a, ._67tw, ._7ht_, ._6-xo {
+._79da, ._2jnv, ._4rpj, ._5qsj, a, ._4k7a, ._67tw, ._7ht_, ._6-xo, ._5rh4 {
   color: var(--text-color) !important;
 }
 
@@ -51,7 +51,7 @@
   fill: var(--background-color) !important;
 }
 /* emojis, games etc. tabs*/
-._53ij, ._5r8a._5r8b, ._3z53, ._5f0v._3rh0.uiScrollableArea, ._4lh2, ._4lh7, ._30h0, ._682j {
+._53ij, ._5r8a._5r8b, ._3z53, ._4lh2, ._4lh7, ._30h0, ._682j {
   background-color: var(--darkspot) !important;
   color: var(--text-color) !important;
 }
@@ -98,6 +98,12 @@
 ._4dfu {
   background-image: linear-gradient(to right, var(--background-color), var(--highlight), var(--background-color)) !important;
 }
+
+/* Image loading */
+._7jxv {
+  background-color: var(--background-color);
+}
+
 /* scrollbar */
 .uiScrollableAreaTrack {
   background-color: #3e3e3e !important;
@@ -111,6 +117,13 @@
 ._58al, ._58al::placeholder {
   background-color: var(--darkspot) !important;
   color: var(--text-color) !important;
+}
+
+._58-2 {
+  background-color: var(--darkspot) !important;
+  color: var(--text-color) !important;
+  border: 4px solid var(--darkspot);
+  border-radius: 4px;
 }
 
 /* search results */
