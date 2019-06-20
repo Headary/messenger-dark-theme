@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Messenger Dark Theme",
+  "author": "Adam Krška"
   "version": "0.2.1",
 
   "description": "Enable dark mode in inbrowser messenger.",
@@ -11,5 +12,14 @@
       "css":["styles.css"]
     }
   ]
+
+  "icons":{
+    "32": "data/icons/32.png",
+    "48": "data/icons/48.png",
+    "64": "data/icons/64.png",
+    "96": "data/icons/96.png",
+    "128": "data/icons/128.png",
+    "256": "data/icons/256.png"
+  }
 
 }

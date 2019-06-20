@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="8.8498693"
-     inkscape:cy="802.79228"
+     inkscape:cx="294.19729"
+     inkscape:cy="548.78364"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -56,28 +56,41 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="opacity:1;fill:#222222;fill-opacity:1;stroke:#222222;stroke-width:0.38742566;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:11.69999981;stroke-opacity:1;paint-order:normal"
+       id="rect835"
+       width="108.47919"
+       height="108.47919"
+       x="46.824173"
+       y="100.94193"
+       ry="12.828938"
+       inkscape:export-xdpi="22.4"
+       inkscape:export-ydpi="22.4"
+       inkscape:export-filename="/home/adam/Documents/work/web extesions/messenger/MessengerDarkTheme/icons/96.png" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:7.565;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       id="path819"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#efefef;stroke-width:7.36599159;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="path819-3"
        sodipodi:type="arc"
-       sodipodi:cx="61.880024"
-       sodipodi:cy="109.30788"
-       sodipodi:rx="43.089287"
-       sodipodi:ry="43.089287"
+       sodipodi:cx="97.797066"
+       sodipodi:cy="159.7547"
+       sodipodi:rx="41.955757"
+       sodipodi:ry="41.955757"
        sodipodi:start="2.0943951"
        sodipodi:end="1.09422"
-       d="M 40.335381,146.62429 A 43.089287,43.089287 0 0 1 20.392944,97.667049 43.089287,43.089287 0 0 1 62.893012,66.230499 43.089287,43.089287 0 0 1 103.86842,99.630022 43.089287,43.089287 0 0 1 81.64679,147.59575"
+       d="m 76.819187,196.08945 a 41.955757,41.955757 0 0 1 -19.41782,-47.66935 41.955757,41.955757 0 0 1 41.382039,-30.60956 41.955757,41.955757 0 0 1 39.897494,32.5209 41.955757,41.955757 0 0 1 -21.63706,46.70392"
        sodipodi:open="true"
-       transform="rotate(-1.1790922)"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       transform="rotate(-1.1790921)"
+       inkscape:export-xdpi="22.4"
+       inkscape:export-ydpi="22.4"
+       inkscape:export-filename="/home/adam/Documents/work/web extesions/messenger/MessengerDarkTheme/icons/96.png" />
     <path
-       style="fill:none;stroke:#333333;stroke-width:7.565;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 36.05293,122.24888 22.45064,-22.450645 5.612661,5.612665 5.61266,5.61266 22.45064,-22.450645"
-       id="path4553"
+       style="fill:none;stroke:#efefef;stroke-width:7.36599159;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 69.835862,161.52898 27.896593,-13.3229 3.331325,6.97559 3.33133,6.97527 27.89656,-13.32361"
+       id="path4553-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="22.4"
+       inkscape:export-ydpi="22.4"
+       inkscape:export-filename="/home/adam/Documents/work/web extesions/messenger/MessengerDarkTheme/icons/96.png" />
   </g>
 </svg>
