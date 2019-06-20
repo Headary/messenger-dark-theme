@@ -139,6 +139,11 @@
   background-color: var(--darkspot);
 }
 
+/* back button */
+#ArrowLeft>path {
+  fill: var(--text-color) !important;
+}
+
 /*Icons*/
 a._4rv6, a._4ce_ {
   opacity: 0.6 !important;
