@@ -24,6 +24,17 @@
   border-color: var(--darkspot);
 }
 
+/* text bar */
+._5irm._7mkm {
+  background-color: var(--background-color);
+}
+._7kpk {
+  background-color: var(--darkspot);
+}
+._4rv3 {
+  border-top: 1px solid var(--darkspot);
+}
+
 /* messages */
 ._hh7{
   background-color: var(--darkspot);
@@ -145,22 +156,7 @@
 }
 
 /*Icons*/
-a._4rv6, a._4ce_ {
-  opacity: 0.6 !important;
-  filter: invert(100%) !important;
-}
-
-._53io {
-  opacity: 0.6 !important;
-}
-
-._1r_9 ._53ik ._53io {
-  opacity: 0.6 !important;
-  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yw/r/ucMaqGJtibF.png);
-  background-position: -16px -138px;
-}
-
-.sp_DRWiQpFHw7f, ._23ct, ._2t5t, .sp_nKFWmcbA0s9_1_5x, .sp_sbxFxdCZjuj, ._1z_2>svg, ._1z_2, ._53il ._558b + ._53io {
+.sp_sbxFxdCZjuj, ._1z_2>svg, ._1z_2, ._53il ._558b + ._53io {
   filter: invert(100%) !important;
 }
 
