@@ -34,3 +34,4 @@ function resetOptions() {
 document.addEventListener("DOMContentLoaded", restoreOptions);
 document.querySelector("form").addEventListener("submit", saveOptions);
 document.getElementById("resetbtn").addEventListener("click", resetOptions);
+document.getElementById("revertbtn").addEventListener("click", restoreOptions);

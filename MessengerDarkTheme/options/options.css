@@ -1,0 +1,36 @@
+.grid-container{
+  display: grid;
+}
+
+.grid-colors{
+  grid-template-columns: 25% 75%;
+}
+
+.grid-buttons{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button {
+  text-align: center;
+  margin: 5px;
+  padding: 7px 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.goodbtn {
+  border-color: #40ff40;
+  background-color: #40ff4040;
+}
+
+.warningbtn {
+  border-color: #ffc200;
+  background-color: #ffc20040;
+}
+
+.dangerbtn {
+  border-color: #ff4040;
+  background-color: #ff404040;
+}

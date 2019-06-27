@@ -10,12 +10,12 @@
     {
       "matches": ["*://*.messenger.com/*","*://*.facebook.com/messages/*"],
       "css":["styles.css"],
-      "js":["inject.js"]
+      "js":["options/inject.js"]
     }
   ],
 
   "options_ui": {
-    "page": "options.html"
+    "page": "options/options.html"
   },
 
   "permissions": ["storage"],
