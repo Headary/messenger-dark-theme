@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Messenger Dark Theme",
   "author": "Headary",
-  "version": "0.2.2",
+  "version": "0.3",
 
   "description": "Enable dark mode in inbrowser messenger.",
 
@@ -22,7 +22,7 @@
 
   "applications": {
     "gecko": {
-      "id": "addon@example.com"
+      "id": "{85a1917a-2120-4aaf-87ba-9c10952e59e5}"
     }
   },
 

@@ -7,30 +7,49 @@
 }
 
 .grid-buttons{
+  padding-top: 10px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .button {
   text-align: center;
-  margin: 5px;
+  margin: 10px;
   padding: 7px 5px;
   border-width: 2px;
   border-style: solid;
   border-radius: 5px;
   background-color: white;
+  font-weight: bold;
 }
 
 .goodbtn {
   border-color: #40ff40;
-  background-color: #40ff4040;
+  background-color: #40ff4020;
+}
+.goodbtn:hover {
+  border-color: #40df40;
+  background-color: #40df4050;
 }
 
 .warningbtn {
-  border-color: #ffc200;
-  background-color: #ffc20040;
+  border-color: #ffc220;
+  background-color: #ffc22020;
+}
+.warningbtn:hover {
+  border-color: #dfa220;
+  background-color: #dfa22050;
 }
 
 .dangerbtn {
   border-color: #ff4040;
-  background-color: #ff404040;
+  background-color: #ff404020;
+}
+.dangerbtn:hover {
+  border-color: #df4040;
+  background-color: #df404050;
+}
+
+.goodbtn:active, .warningbtn:active, .dangerbtn:active {
+  transform: translateY(1px);
+  filter: saturate(180%);
 }

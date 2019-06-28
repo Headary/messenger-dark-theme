@@ -11,11 +11,7 @@
 }
 
 ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e, ._3oh-, ._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh, ._2y8z, ._286b, ._682i, ._2d0c, ._2p_d,
-._79da, ._2jnv, ._4rpj, ._5qsj, a, ._4k7a, ._67tw, ._7ht_, ._6-xo, ._5rh4 {
-  color: var(--color-text) !important;
-}
-
-._6ybk>a {
+._79da, ._2jnv, ._4rpj, ._5qsj, a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._6ybk>a {
   color: var(--color-text) !important;
 }
 
@@ -24,6 +20,10 @@
   border-color: var(--color-darkspot);
 }
 
+/* conversations */
+._1ht2 {
+  background-color: rgba(0,0,0,0.1) !important;
+}
 /* text bar */
 ._5irm._7mkm {
   background-color: var(--color-background);
@@ -57,14 +57,24 @@
   color: var(--color-text) !important;
 }
 
-/*like emoji*/
+/* like emoji */
 ._2poz._ui9 > svg > rect {
   fill: var(--color-background) !important;
 }
 /* emojis, games etc. tabs*/
-._53ij, ._5r8a._5r8b, ._3z53, ._4lh2, ._4lh7, ._30h0, ._682j {
+._3rh0, ._53ij, ._5r8a._5r8b, ._3z53, ._4lh2, ._4lh7, ._30h0, ._682j {
   background-color: var(--color-darkspot) !important;
   color: var(--color-text) !important;
+}
+._7t1o {
+  background-color: var(--color-background) !important;
+}
+._5jn1 {
+  color: var(--color-text) !important;
+}
+
+._2m5p {
+  border-color: var(--color-highlight);
 }
 
 /* reactions */
@@ -83,6 +93,10 @@
   color: var(--color-text) !important;
 }
 
+/* Mentions */
+._5l37 {
+  background-color: var(--color-background) !important;
+}
 /* link in standalone messange */
 ._52mr._4skb {
   background-color: var(--color-darkspot);
@@ -163,7 +177,7 @@
 ._3-wv._7i2n:hover, ._2rvp._7i2l:hover {
   background-color: rgba(0, 0, 0, 0);
 }
-._1z_2>a{
+._1z_2>a, ._7mki{
   background-color: rgba(0, 0, 0, 0);
 }
 
