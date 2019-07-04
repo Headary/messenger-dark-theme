@@ -10,8 +10,11 @@
   background-color: var(--color-background) !important;
 }
 
-._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e, ._3oh-, ._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh, ._2y8z, ._286b, ._682i, ._2d0c, ._2p_d,
-._79da, ._2jnv, ._4rpj, ._5qsj, a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._6ybk>a {
+body, h2, ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e,
+._3oh-, ._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh,
+._2y8z, ._286b, ._682i, ._2d0c, ._2p_d, ._79da, ._2jnv, ._4rpj, ._5qsj,
+a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
+._4eb->ul>li>div>label, ._87b_ {
   color: var(--color-text) !important;
 }
 
@@ -24,6 +27,16 @@
 ._1ht2 {
   background-color: rgba(0,0,0,0.1) !important;
 }
+
+._7q1j > div {
+  border-color: var(--color-background) !important;
+}
+
+/* delete new conversation */
+#Cancel > path {
+  fill: var(--color-text);
+}
+
 /* text bar */
 ._5irm._7mkm {
   background-color: var(--color-background);
@@ -41,13 +54,13 @@
   color: var(--color-text) !important;
 }
 
-._3058._ui9._hh7 {
-  background-color: var(--color-darkspot);
+._3058._ui9._hh7{
+  background-color: var(--color-darkspot) !important;
   color: var(--color-text) !important;
 }
 
 ._hh7._6ybn._2f5r, ._2poz._52mr {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0) !important;
   color: var(--color-text) !important;
 }
 
@@ -55,6 +68,20 @@
 ._2azv, .__6j {
   background-color: var(--color-darkspot);
   color: var(--color-text) !important;
+}
+
+/* survey */
+._3b4t {
+  background-color: var(--color-darkspot);
+}
+
+._3b4u, ._1mq-, ._1mr_ {
+  color: var(--color-text);
+}
+
+._4mnq {
+  background-color: var(--color-darkspot);
+  border-color: var(--color-darkspot);
 }
 
 /* like emoji */
@@ -83,6 +110,19 @@
   color: var(--color-text) !important;
 }
 
+._4ik6 {
+  color: var(--color-text);
+}
+
+._29_7 ._3058._s1-._6e6n {
+  background-color: var(--color-darkspot);
+  border-color: var(--color-darkspot)
+}
+
+._pyf {
+  background-color: var(--color-text) !important;
+}
+
 ._yav{
   filter: invert(1);
 }
@@ -97,7 +137,8 @@
 ._5l37 {
   background-color: var(--color-background) !important;
 }
-/* link in standalone messange */
+
+/* link in standalone message */
 ._52mr._4skb {
   background-color: var(--color-darkspot);
 }
@@ -112,6 +153,12 @@
   border-color: var(--color-darkspot) !important;
   color: var(--color-text) !important;
 }
+
+/* find in conversation */
+._33p7 {
+  background-color: var(--color-background);
+}
+
 
 /* image background */
 ._3m31 {
@@ -129,6 +176,12 @@
   background-color: var(--color-background);
 }
 
+/* change nickname */
+._30e7 ._5j5f {
+  background-color: var(--color-darkspot);
+  border-color: var(--color-darkspot);
+}
+
 /* scrollbar */
 .uiScrollableAreaTrack {
   background-color: #3e3e3e !important;
@@ -136,6 +189,12 @@
 
 ._4gd0 {
   background-color: var(--color-background) !important;
+}
+
+/* scroll down to last message button */
+._69xg {
+  background-color: var(--color-background);
+  border-color: var(--color-highlight);
 }
 
 /* search bar*/
@@ -192,6 +251,10 @@
 
 ._5blh>svg>g>g{
     fill: var(--color-text);
+}
+
+._uwa {
+ filter: invert(100%);
 }
 
 /* Block account, ignore etc. icons*/
