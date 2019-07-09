@@ -48,6 +48,10 @@ a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
   border-top: 1px solid var(--color-darkspot);
 }
 
+._1p1v {
+  color: var(--color-text);
+}
+
 /* messages */
 ._hh7{
   background-color: var(--color-darkspot);
@@ -55,7 +59,7 @@ a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
 }
 
 ._3058._ui9._hh7{
-  background-color: var(--color-darkspot) !important;
+  background-color: var(--color-darkspot);
   color: var(--color-text) !important;
 }
 
@@ -84,10 +88,37 @@ a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
   border-color: var(--color-darkspot);
 }
 
+/* Mentions */
+._5l37 {
+  background-color: var(--color-background) !important;
+}
+
+/* link in standalone message */
+._2poz._52mr {
+  background-color: var(--color-darkspot) !important;
+}
+
+.__6k, .__6l, .__6m {
+  color: var(--color-text) !important;
+}
+
+/* links in write message field*/
+.chatAttachmentShelf, ._324d {
+  background-color: var(--color-darkspot) !important;
+  border-color: var(--color-darkspot) !important;
+  color: var(--color-text) !important;
+}
+
+/* deleted message */
+._7301._hh7._hh7._6ybn {
+background-color: var(--color-darkspot);
+}
+
 /* like emoji */
 ._2poz._ui9 > svg > rect {
   fill: var(--color-background) !important;
 }
+
 /* emojis, games etc. tabs*/
 ._3rh0, ._53ij, ._5r8a._5r8b, ._3z53, ._4lh2, ._4lh7, ._30h0, ._682j {
   background-color: var(--color-darkspot) !important;
@@ -119,7 +150,7 @@ a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
   border-color: var(--color-darkspot)
 }
 
-._pyf {
+._pyf, ._8721 {
   background-color: var(--color-text) !important;
 }
 
@@ -130,27 +161,6 @@ a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
 /* selected tabs in emoji manu */
 ._1uwz {
   background-color: var(--color-background) !important;
-  color: var(--color-text) !important;
-}
-
-/* Mentions */
-._5l37 {
-  background-color: var(--color-background) !important;
-}
-
-/* link in standalone message */
-._52mr._4skb {
-  background-color: var(--color-darkspot);
-}
-
-.__6k, .__6l, .__6m {
-  color: var(--color-text) !important;
-}
-
-/* links in write message field*/
-.chatAttachmentShelf, ._324d {
-  background-color: var(--color-darkspot) !important;
-  border-color: var(--color-darkspot) !important;
   color: var(--color-text) !important;
 }
 
