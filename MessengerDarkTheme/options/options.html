@@ -5,28 +5,56 @@
   </head>
 
   <body>
-    <form>
-      <div class="grid-container grid-colors">
+    <span class="h2" style="margin-bottom: 10px;">Colors:</span>
+    <form class="grid-container grid-colors">
         <label for="colBackground">Background color</label>
         <input type="color" id="colBackground">
         <label for="colText">Text color</label>
         <input type="color" id="colText">
+        <label for="colTextDark">Dark Text color</label>
+        <input type="color" id="colTextDark">
         <label for="colDark">Shades/Dark spots</label>
         <input type="color" id="colDark">
         <label for="colLight">Highlights</label>
         <input type="color" id="colLight">
-      </div>
-      <div class="grid-container grid-buttons">
-        <button class="button dangerbtn" type="button" id="resetbtn">Reset</button>
-        <button class="button warningbtn" type="button" id="revertbtn">Revert saved values</button>
-        <button class="button goodbtn" type="submit">Save</button>
-      </div>
+    </form>
+    <span class="h2">Text color:</span>
+    <span style="margin-bottom:10px;">Toggle between default and dark text color in messages.</span>
+    <form class="grid-container grid-checkbox" id="checkboxes">
+      <label style="background-color: rgb(255, 124, 168); background-image: linear-gradient(to left, rgb(255, 143, 178) 0%, rgb(167, 151, 255) 50%, rgb(  0, 229, 255) 100%);">
+        <input type="checkbox" value="background-color: rgb(255, 124, 168);"><span>Pink gradient</span></label>
+      <label style="background-color: rgb( 26, 219,  91); background-image: linear-gradient(to left, rgb(255, 210,   0) 0%, rgb(110, 223,   0) 50%, rgb(  0, 223, 187) 100%);">
+        <input type="checkbox" value="background-color: rgb(26, 219, 91);"><span>Green gradient</span></label>
+      <label style="background-color: rgb(240,  29, 106); background-image: linear-gradient(to left, rgb(  0,  95, 255) 0%, rgb(146,   0, 255) 50%, rgb(255,  46,  25) 100%);">
+        <input type="checkbox" value="background-color: rgb(240, 29, 106);"><span>Purple gradient</span></label>
+      <label style="background-color: rgb(255, 156,  25); background-image: linear-gradient(to left, rgb(255, 220,  45) 0%, rgb(255, 150,  22) 50%, rgb(255,  79,   0) 100%);">
+        <input type="checkbox" value="background-color: rgb(255, 156, 25);"><span>Orange gradient</span></label>
+
+      <label style="background-color: rgb( 14, 220, 222); background-image: linear-gradient(to left, rgb( 25, 201, 255) 0%, rgb(  0, 230, 210) 50%, rgb( 14, 230, 183) 100%);">
+        <input type="checkbox" value="background-color: rgb(14, 220, 222);"><span>Cyan gradient</span></label>
+      <label style="background-color: rgb(  0, 132, 255);"><input type="checkbox" value="background-color: rgb(0, 132, 255);"><span>Blue</span></label>
+      <label style="background-color: rgb( 68, 190, 199);"><input type="checkbox" value="background-color: rgb(68, 190, 199);"><span>Cyan</span></label>
+      <label style="background-color: rgb(255, 195,   0);"><input type="checkbox" value="background-color: rgb(255, 195, 0);"><span>Yellow</span></label>
+
+      <label style="background-color: rgb(250,  60,  76);"><input type="checkbox" value="background-color: rgb(250,  60, 76);"><span>Red</span></label>
+      <label style="background-color: rgb(214, 150, 187);"><input type="checkbox" value="background-color: rgb(214, 150, 187);"><span>Bubble gum</span></label>
+      <label style="background-color: rgb( 19, 207,  19);"><input type="checkbox" value="background-color: rgb(19, 207, 19);"><span>Green</span></label>
+      <label style="background-color: rgb(255, 126,  41);"><input type="checkbox" value="background-color: rgb(255, 126, 41);"><span>Orange</span></label>
+
+      <label style="background-color: rgb(230, 133, 133);"><input type="checkbox" value="background-color: rgb(230, 133, 133);"><span>Peach</span></label>
+      <label style="background-color: rgb(118,  70, 255);"><input type="checkbox" value="background-color: rgb(118, 70, 255);"><span>Purple</span></label>
+      <label style="background-color: rgb( 32, 206, 245);"><input type="checkbox" value="background-color: rgb(32, 206, 245);"><span>Light Blue</span></label>
+      <label style="background-color: rgb(255,  92, 161);"><input type="checkbox" value="background-color: rgb(255, 92, 161);"><span>Pink</span></label>
     </form>
 
-    <p><b>Reset</b> and <b>Revert saved values</b> buttons have effect only on current values. In order to apply them, you need to hit <b>Save</b>.</p>
+    <div class="grid-container grid-buttons">
+      <button class="button dangerbtn"  type="button" id="resetbtn" >Reset</button>
+      <button class="button warningbtn" type="button" id="revertbtn">Revert saved values</button>
+      <button class="button goodbtn"    type="button" id="savebtn"  >Save</button>
+    </div>
 
-    <script src="options.js"></script>
-
+  <p><b>Reset</b> and <b>Revert saved values</b> buttons have effect only on current values. In order to apply them, you need to hit <b>Save</b>.</p>
+  <script src="options.js"></script>
   </body>
 
 </html>

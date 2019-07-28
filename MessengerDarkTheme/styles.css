@@ -1,17 +1,10 @@
-/* :root {
-  --color-background: #222222;
-  --color-text: #efefef;
-  --color-darkspot: #1a1a1a;
-  --color-highlight: #404040;
-} */
-
-/* whole page */
+/* who1le page */
 ._4sp8, ._5f0v {
   background-color: var(--color-background) !important;
 }
 
 body, h2, ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e,
-._3oh-, ._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh,
+._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh,
 ._2y8z, ._286b, ._682i, ._2d0c, ._2p_d, ._79da, ._2jnv, ._4rpj, ._5qsj,
 a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
 ._4eb->ul>li>div>label, ._87b_ {
@@ -66,6 +59,10 @@ a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
 ._hh7._6ybn._2f5r, ._2poz._52mr {
   background-color: rgba(0, 0, 0, 0) !important;
   color: var(--color-text) !important;
+}
+
+._3oh- {
+  color: var(--color-text);
 }
 
 /* file in a message*/
