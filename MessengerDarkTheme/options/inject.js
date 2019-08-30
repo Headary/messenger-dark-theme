@@ -39,8 +39,12 @@ function onGot(item) {
     let attr = oppTextCol[i];
     style +=`
       ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh-,
-      ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh- > a {
+      ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh- > a,
+      ._3058._ui9._hh7[style*="`+attr+`"] ._pye {
         color: var(--color-textdark) !important;
+      }
+      ._3058._ui9._hh7[style*="`+attr+`"] ._pye ._pyf {
+        background-color: var(--color-textdark) !important;
       }`
     }
   var styleSheet = document.createElement("style");
@@ -48,6 +52,7 @@ function onGot(item) {
   styleSheet.innerHTML = style;
   var ref = document.querySelector('script');
   ref.parentNode.insertBefore(styleSheet, ref);
+  console.log(style);
 }
 
 var getting = browser.storage.sync.get();

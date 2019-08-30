@@ -14,7 +14,7 @@
 }
 
 .grid-buttons{
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .grid-checkbox{
@@ -40,38 +40,38 @@
   background-color: white;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.1s;
 }
 
 .goodbtn {
   border-color: #40ff40;
-  background-color: #40ff4020;
+  background-color: #40ff4040;
 }
-.goodbtn:hover {
-  border-color: #40df40;
+/* .goodbtn:hover {
+border-color: #40df40;
   background-color: #40df4050;
-}
+} */
 
 .warningbtn {
   border-color: #ffc220;
-  background-color: #ffc22020;
+  background-color: #ffc22040;
 }
-.warningbtn:hover {
+/* .warningbtn:hover {
   border-color: #dfa220;
   background-color: #dfa22050;
-}
+} */
 
 .dangerbtn {
   border-color: #ff4040;
-  background-color: #ff404020;
+  background-color: #ff404040;
 }
-.dangerbtn:hover {
-  border-color: #df4040;
-  background-color: #df404050;
+.goodbtn:hover, .warningbtn:hover, .dangerbtn:hover {
+  filter: brightness(80%);
 }
 
 .goodbtn:active, .warningbtn:active, .dangerbtn:active {
   transform: translateY(1px);
-  filter: saturate(180%);
+  filter: brightness(60%);
 }
 
 /* color input */
@@ -89,6 +89,15 @@
   margin: 5px;
   color: var(--color-text);
   cursor: pointer;
+  transition: 0.1s;
+}
+
+.grid-checkbox > label:hover {
+  font-size: 105%;
+}
+
+.grid-checkbox > label > span {
+  transition: 0.1s;
 }
 
 :checked + span{

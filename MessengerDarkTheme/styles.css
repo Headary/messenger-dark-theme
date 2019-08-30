@@ -1,4 +1,4 @@
-/* who1le page */
+/* whole page */
 ._4sp8, ._5f0v {
   background-color: var(--color-background) !important;
 }
@@ -6,8 +6,8 @@
 body, h2, ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e,
 ._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh,
 ._2y8z, ._286b, ._682i, ._2d0c, ._2p_d, ._79da, ._2jnv, ._4rpj, ._5qsj,
-a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
-._4eb->ul>li>div>label, ._87b_ {
+._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
+._4eb->ul>li>div>label, ._87b_, ._2ogt._6yb-, a:not(._ih-) {
   color: var(--color-text) !important;
 }
 
@@ -63,6 +63,16 @@ a, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
 
 ._3oh- {
   color: var(--color-text);
+}
+
+/* reply */
+._nd_ ._hh7 ._pye ._pyf, ._hh7 ._pye ._pyf {
+  background-color: var(--color-text);
+  opacity: 0.4;
+}
+._29_7 ._6e6n ._pye, ._nd_ ._hh7 ._pye {
+  color: var(--color-text);
+  opacity: 0.8;
 }
 
 /* file in a message*/
@@ -147,7 +157,7 @@ background-color: var(--color-darkspot);
   border-color: var(--color-darkspot)
 }
 
-._pyf, ._8721 {
+._8721 {
   background-color: var(--color-text) !important;
 }
 
@@ -247,6 +257,9 @@ background-color: var(--color-darkspot);
   background-color: rgba(0, 0, 0, 0);
 }
 
+#Fill-11 {
+  fill: var(--color-text);
+}
 #settings, #compose {
   filter: invert(100%) !important;
   background-color: rgba(0, 0, 0, 0);
@@ -305,7 +318,7 @@ background-color: var(--color-darkspot);
   color: var(--color-text) !important;
 }
 
-._374c, ._19jt, ._6cs7, ._4ng2 {
+._374c, ._19jt, ._6cs7, ._4ng2, ._6ct8._6y58 {
   color: var(--color-text) !important;
 }
 

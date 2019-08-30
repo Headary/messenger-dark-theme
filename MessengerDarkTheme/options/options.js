@@ -22,10 +22,10 @@ function saveOptions(e) {
 function restoreOptions() {
   function setCurrentChoice(result) {
     document.querySelector("#colBackground").value = result.colBackground || "#222222";
-    document.querySelector("#colText").value = result.colText || "#efefef";
-    document.querySelector("#colTextDark").value = result.colTextDark || "#222222";
-    document.querySelector("#colDark").value = result.colDark || "#1a1a1a";
-    document.querySelector("#colLight").value = result.colLight || "#404040";
+    document.querySelector("#colText").value = result.colText             || "#efefef";
+    document.querySelector("#colTextDark").value = result.colTextDark     || "#222222";
+    document.querySelector("#colDark").value = result.colDark             || "#1a1a1a";
+    document.querySelector("#colLight").value = result.colLight           || "#404040";
     checked = result.oppTextCol || [];
     for (let i = 0; i < chboxes.length; i++) {
       chboxes[i].checked = false;
@@ -46,12 +46,16 @@ function restoreOptions() {
   getting.then(setCurrentChoice, onError);
 }
 
-function resetOptions() {
+function resetCols() {
   document.querySelector("#colBackground").value = "#222222";
   document.querySelector("#colText").value = "#efefef";
   document.querySelector("#colTextDark").value = "#222222";
   document.querySelector("#colDark").value = "#1a1a1a";
   document.querySelector("#colLight").value = "#404040";
+  updateElementCol();
+}
+
+function resetChBoxes() {
   for (let i = 0; i < chboxes.length; i++) {
     chboxes[i].checked = false;
   }
@@ -66,6 +70,7 @@ function updateElementCol() {
 
 document.addEventListener("DOMContentLoaded", restoreOptions);
 document.querySelectorAll("input[type=color]").forEach(input => input.addEventListener("change", updateElementCol));
-document.getElementById("savebtn").addEventListener("click", saveOptions);
-document.getElementById("resetbtn").addEventListener("click", resetOptions);
+document.getElementById("resetcolbtn").addEventListener("click", resetCols);
+document.getElementById("resetchbbtn").addEventListener("click", resetChBoxes);
 document.getElementById("revertbtn").addEventListener("click", restoreOptions);
+document.getElementById("savebtn").addEventListener("click", saveOptions);
