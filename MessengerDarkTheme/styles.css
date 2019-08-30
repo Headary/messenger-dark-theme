@@ -65,6 +65,11 @@ body, h2, ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e,
   color: var(--color-text);
 }
 
+/* codeblock */
+._wu0 {
+  color: var(--color-textdark);
+}
+
 /* reply */
 ._nd_ ._hh7 ._pye ._pyf, ._hh7 ._pye ._pyf {
   background-color: var(--color-text);
@@ -119,6 +124,11 @@ body, h2, ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e,
 /* deleted message */
 ._7301._hh7._hh7._6ybn {
 background-color: var(--color-darkspot);
+}
+
+/* message deleted because of authetication of user */
+.uiBoxYellow {
+  color: var(--color-textdark);
 }
 
 /* like emoji */
@@ -246,7 +256,7 @@ background-color: var(--color-darkspot);
 }
 
 /*Icons*/
-.sp_sbxFxdCZjuj, ._1z_2>svg, ._1z_2, ._53il ._558b + ._53io {
+.sp_sbxFxdCZjuj, ._1z_2>svg, ._1z_2, ._53io {
   filter: invert(100%) !important;
 }
 
@@ -257,7 +267,7 @@ background-color: var(--color-darkspot);
   background-color: rgba(0, 0, 0, 0);
 }
 
-#Fill-11 {
+._7jot > svg > g > path {
   fill: var(--color-text);
 }
 #settings, #compose {

@@ -40,6 +40,8 @@ function onGot(item) {
     style +=`
       ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh-,
       ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh- > a,
+      ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh- > * > ._3oh-,
+      ._3058._ui9._hh7[style*="`+attr+`"] [style*="color: rgb(255, 255, 255);"],
       ._3058._ui9._hh7[style*="`+attr+`"] ._pye {
         color: var(--color-textdark) !important;
       }
