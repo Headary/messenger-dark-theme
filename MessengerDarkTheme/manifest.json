@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Messenger Dark Theme",
   "author": "Headary",
-  "version": "0.4",
+  "version": "0.4.1",
 
   "description": "Enable dark mode in inbrowser messenger.",
 
@@ -34,5 +34,4 @@
     "128": "icons/128.png",
     "256": "icons/256.png"
   }
-
 }
