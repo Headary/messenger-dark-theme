@@ -42,19 +42,24 @@ function onGot(item) {
       ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh- > a,
       ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh- > * > ._3oh-,
       ._3058._ui9._hh7[style*="`+attr+`"] [style*="color: rgb(255, 255, 255);"],
-      ._3058._ui9._hh7[style*="`+attr+`"] ._pye {
+      ._3058._ui9._hh7[style*="`+attr+`"] ._pye,
+      ._3058._ui9._hh7[style*="`+attr+`"] > ._4pcn {
         color: var(--color-textdark) !important;
       }
       ._3058._ui9._hh7[style*="`+attr+`"] ._pye ._pyf {
         background-color: var(--color-textdark) !important;
-      }`
+      }
+      ._3058._ui9._hh7[style*="`+attr+`"] > ._4pcn > ._2uf5 {
+        filter: invert(0.85);
+      }
+      `
     }
   var styleSheet = document.createElement("style");
   styleSheet.id = "styleSheet";
   styleSheet.innerHTML = style;
   var ref = document.querySelector('script');
   ref.parentNode.insertBefore(styleSheet, ref);
-  console.log(style);
+  // console.log(style);
 }
 
 var getting = browser.storage.sync.get();

@@ -80,6 +80,10 @@ body, h2, ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e,
   opacity: 0.8;
 }
 
+._3egs {
+  background-color: var(--color-color);
+}
+
 /* file in a message*/
 ._2azv, .__6j {
   background-color: var(--color-darkspot);
