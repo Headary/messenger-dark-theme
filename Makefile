@@ -1,4 +1,4 @@
-messenger-dark-theme.zip: MessengerDarkTheme/styles.css MessengerDarkTheme/manifest.json
+messenger-dark-theme.zip: $(wildcard MessengerDarkTheme/*)
 	cd MessengerDarkTheme; \
 	zip -ur messenger-dark-theme.zip *; \
 	cd ..; \
