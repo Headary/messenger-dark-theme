@@ -38,9 +38,9 @@ function onGot(item) {
   for (let i = 0; i < oppTextCol.length; i++) {
     let attr = oppTextCol[i];
     style +=`
-      ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh-,
-      ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh- > a,
-      ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > ._3oh- > * > ._3oh-,
+      ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > * > ._3oh-,
+      ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > * > ._3oh- > a,
+      ._3058._ui9._hh7[style*="`+attr+`"] > ._aok > * > ._3oh- > * > ._3oh-,
       ._3058._ui9._hh7[style*="`+attr+`"] [style*="color: rgb(255, 255, 255);"],
       ._3058._ui9._hh7[style*="`+attr+`"] ._pye,
       ._3058._ui9._hh7[style*="`+attr+`"] > ._4pcn {
