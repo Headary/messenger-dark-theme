@@ -212,6 +212,12 @@ background-color: var(--color-darkspot);
   background-color: var(--color-background);
 }
 
+/* Image info */
+._2zn2, ._2zn6 {
+  color: var(--color-text)
+}
+
+
 /* change nickname */
 ._30e7 ._5j5f {
   background-color: var(--color-darkspot);
