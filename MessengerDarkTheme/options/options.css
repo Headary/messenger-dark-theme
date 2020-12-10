@@ -87,7 +87,7 @@ border-color: #40df40;
   border-radius: 10px;
   padding: 5px;
   margin: 5px;
-  color: var(--color-text);
+  color: var(--color-text-primary);
   cursor: pointer;
   transition: 0.1s;
 }
