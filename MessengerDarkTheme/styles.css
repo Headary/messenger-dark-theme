@@ -17,6 +17,10 @@
     --secondary-button-background: var(--color-highlight);
     --popover-background: var(--color-highlight);
 
+    /* hover */
+    --media-hover: rgba(220,220,220,0.07);
+    --hover-overlay: rgba(220,220,220,0.05);
+
     /* icons */
     --filter-disabled-icon: invert(100%) opacity(30%);
     --filter-primary-icon: invert(100%);
@@ -42,3 +46,386 @@
 .a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4>path {
     filter: var(--filter-always-white);
 }
+
+
+/*
+---- OLD VERSION ----
+*/
+
+/* whole page */
+._4sp8, ._5f0v {
+  background-color: var(--color-background) !important;
+}
+
+body, h2, ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e,
+._1ht6, ._2v6o, ._1lj0, ._3eus, ._4rv4, ._225b, ._364g, ._1enh, ._8slc,
+._2y8z, ._286b, ._682i, ._2d0c, ._2p_d, ._79da, ._2jnv, ._4rpj, ._5qsj,
+._74ku, ._4k7a, ._67tu, ._67tw, ._7ht_, ._6-xo, ._5rh4, ._7492, ._6ybk>a,
+._4eb->ul>li>div>label, ._87b_, ._2ogt._6yb-, a:not(._ih-), ._74ku, ._7q1q,
+._8b0j {
+  color: var(--color-text) !important;
+}
+
+/* borders */
+._1t2u, ._673w, ._4_j5, ._4rv3 {
+  border-color: var(--color-darkspot);
+}
+
+/* conversations */
+._1ht2 {
+  background-color: rgba(0,0,0,0.1) !important;
+}
+
+._7q1j > div {
+  border-color: var(--color-background) !important;
+}
+
+/* delete new conversation */
+#Cancel > path {
+  fill: var(--color-text);
+}
+
+/* text bar */
+._5irm._7mkm {
+  background-color: var(--color-background);
+}
+._7kpk {
+  background-color: var(--color-darkspot);
+}
+._4rv3 {
+  border-top: 1px solid var(--color-darkspot);
+}
+
+._1p1v {
+  color: var(--color-text);
+}
+
+/* messages */
+._hh7{
+  background-color: var(--color-darkspot);
+  color: var(--color-text) !important;
+}
+
+._3058._ui9._hh7{
+  background-color: var(--color-darkspot);
+  color: var(--color-text) !important;
+}
+
+._hh7._6ybn._2f5r, ._2poz._52mr {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: var(--color-text) !important;
+}
+
+._3oh- {
+  color: var(--color-text);
+}
+
+/* Typing animatio */
+._1hbw ._5pd7 {
+  background-color: #3e3e3e;
+}@Jakub Šebesta
+
+/* message resend */
+._879m {
+  color: var(--color-text);
+}
+
+/* codeblock */
+._wu0 {
+  color: var(--color-textdark);
+}
+
+/* reply */
+._nd_ ._hh7 ._pye ._pyf, ._hh7 ._pye ._pyf {
+  background-color: var(--color-text);
+  opacity: 0.4;
+}
+._29_7 ._6e6n ._pye, ._nd_ ._hh7 ._pye {
+  color: var(--color-text);
+  opacity: 0.8;
+}
+
+._3egs {
+  background-color: var(--color-color);
+}
+
+/* file in a message*/
+._2azv, .__6j {
+  background-color: var(--color-darkspot);
+  color: var(--color-text) !important;
+  border-color: var(--color-darkspot) !important;
+}
+
+/* spotify embeddeb*/
+._44ju ._44jz {
+  color: var(--color-text);
+}
+/* Facebook link */
+._2f5n._3dug {
+  background-color: var(--color-darkspot);
+}
+
+/* survey */
+._3b4t {
+  background-color: var(--color-darkspot);
+}
+
+._3b4u, ._1mq-, ._1mr_ {
+  color: var(--color-text);
+}
+
+._4mnq {
+  background-color: var(--color-darkspot);
+  border-color: var(--color-darkspot);
+}
+
+/* Mentions */
+._5l37 {
+  background-color: var(--color-background) !important;
+}
+
+/* link in standalone message */
+._2poz._52mr {
+  background-color: var(--color-darkspot) !important;
+}
+
+.__6k, .__6l, .__6m {
+  color: var(--color-text) !important;
+}
+
+/* links in write message field*/
+.chatAttachmentShelf, ._324d {
+  background-color: var(--color-darkspot) !important;
+  border-color: var(--color-darkspot) !important;
+  color: var(--color-text) !important;
+}
+
+/* deleted message */
+._7301._hh7._hh7._6ybn {
+background-color: var(--color-darkspot);
+}
+
+/* message deleted because of authetication of user */
+.uiBoxYellow {
+  color: var(--color-textdark);
+}
+
+/* like emoji */
+._2poz._ui9 > svg > rect {
+  fill: var(--color-background) !important;
+}
+
+/* emojis, games etc. tabs*/
+._3rh0, ._53ij, ._5r8a._5r8b, ._3z53, ._4lh2, ._4lh7, ._30h0, ._682j {
+  background-color: var(--color-darkspot) !important;
+  color: var(--color-text) !important;
+}
+._7t1o {
+  background-color: var(--color-background) !important;
+}
+._5jn1 {
+  color: var(--color-text) !important;
+}
+._38a0 {
+  color: var(--color-text) !important;
+}
+
+._2m5p {
+  border-color: var(--color-highlight);
+}
+
+/* reactions */
+._aou, ._4kf5 {
+  background-color: var(--color-highlight);
+  color: var(--color-text) !important;
+}
+
+._4ik6 {
+  color: var(--color-text);
+}
+
+._29_7 ._3058._s1-._6e6n {
+  background-color: var(--color-darkspot);
+  border-color: var(--color-darkspot)
+}
+
+._8721 {
+  background-color: var(--color-text) !important;
+}
+
+._yav{
+  filter: invert(1);
+}
+
+/* selected tabs in emoji manu */
+._1uwz {
+  background-color: var(--color-background) !important;
+  color: var(--color-text) !important;
+}
+
+/* find in conversation */
+._33p7 {
+  background-color: var(--color-background);
+}
+
+
+/* image background */
+._3m31 {
+  background-color: var(--color-background) !important;
+  border-color: var(--color-background) !important;
+}
+
+/* Image scrollbar ending */
+._4dfu {
+  background-image: linear-gradient(to right, var(--color-background), var(--color-highlight), var(--color-background)) !important;
+}
+
+/* Image loading */
+._7jxv {
+  background-color: var(--color-background);
+}
+
+/* Image info */
+._2zn2, ._2zn6 {
+  color: var(--color-text)
+}
+
+
+/* change nickname */
+._30e7 ._5j5f {
+  background-color: var(--color-darkspot);
+  border-color: var(--color-darkspot);
+}
+
+/* scrollbar */
+.uiScrollableAreaTrack {
+  background-color: #3e3e3e !important;
+}
+
+._4gd0 {
+  background-color: var(--color-background) !important;
+}
+
+/* scroll down to last message button */
+._69xg {
+  background-color: var(--color-background);
+  border-color: var(--color-highlight);
+}
+
+/* search bar*/
+._58al, ._58al::placeholder {
+  background-color: var(--color-darkspot) !important;
+  color: var(--color-text) !important;
+}
+
+._58-2 {
+  background-color: var(--color-darkspot) !important;
+  color: var(--color-text) !important;
+  border: 4px solid var(--color-darkspot);
+  border-radius: 4px;
+}
+
+/* search results */
+._3q34, ._3q35, ._7u0a, ._3xcx, ._4g0h, ._7s4e {
+  color: var(--color-text) !important;
+}
+
+._7u0a {
+  font-weight: bold;
+}
+
+._225b {
+  background-color: var(--color-darkspot);
+}
+
+/* back button */
+#ArrowLeft>path {
+  fill: var(--color-text) !important;
+}
+
+/*Icons*/
+.sp_sbxFxdCZjuj, ._1z_2>svg, ._1z_2, ._53io, ._2u_d{
+  filter: invert(100%) !important;
+}
+
+._3-wv._7i2n:hover, ._2rvp._7i2l:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+._1z_2 > a, ._7mki, ._2u_d > a {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+._7jot > svg > g > path {
+  fill: var(--color-text);
+}
+#settings, #compose {
+  filter: invert(100%) !important;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.sp_DRWiQpFHw7f.sx_b648b0 {
+  filter: invert(0%) !important;
+}
+
+._5blh>svg>g>g{
+  fill: var(--color-text);
+}
+
+._uwa {
+ filter: invert(100%);
+}
+
+/* Block account, ignore etc. icons*/
+._6ybv, ._6y56, ._6ybz, ._7hu0, ._7hu1, ._7hty {
+    background-color: var(--color-highlight);
+}
+
+._6ybv > svg, ._6y56 > svg, ._6ybz > svg, ._7hu0 > svg, ._7hu1 > svg, ._7hty > svg {
+    filter: invert(100%) !important;
+}
+
+/* Stories */
+._1sk5 {
+  box-shadow: 0 2px 1px var(--color-darkspot), 0 -1px 0 var(--color-darkspot);
+}
+._1sk6 {
+  background-color: var(--color-background) !important;
+  color: var(--color-text) !important;
+}
+
+._1suk {
+  color: var(--color-text) !important;
+}
+
+/* -- Menu and settings -- */
+._54ng {
+  background-color: var(--color-darkspot) !important;
+}
+
+._54nh {
+  color: var(--color-text) !important;
+}
+
+._2i-c ._54ne ._54nh, ._2i-c ._54ne ._54nc, ._2i-c ._54ne, ._54ne {
+  background-color: var(--color-highlight) !important;
+}
+
+/* Settings */
+._4eby, ._59s7 {
+  background-color: var(--color-background) !important;
+  color: var(--color-text) !important;
+}
+
+._374c, ._19jt, ._6cs7, ._4ng2, ._6ct8._6y58 {
+  color: var(--color-text) !important;
+}
+
+._4rlt {
+  background-color: var(--color-highlight) !important;
+}
+
+/* settings borders */
+._374b, ._2c9i ._4ebz {
+  border-color: var(--color-darkspot);
+}
+
