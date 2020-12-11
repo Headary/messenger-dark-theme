@@ -3,21 +3,24 @@
     --messenger-card-background: var(--color-background);
     --surface-background: var(--color-background);
     --messenger-reply-background: var(--color-darkspot);
+    --comment-background: var(--color-darkspot);
 
     /* cards and menus */
     --card-background: var(--color-darkspot);
 
-    /* dividers */
+    /* dividers and borders */
     --media-inner-border: var(--color-highlight);
+    --media-outer-border: var(--color-highlight);
     --divider: var(--color-highlight);
 
     /* buttons */
-    --secondary-button-background: var(--color-darkspot);
-    --popover-background: var(--color-darkspot);
+    --secondary-button-background: var(--color-highlight);
+    --popover-background: var(--color-highlight);
 
     /* icons */
-    --filter-primary-icon: var(--filter-always-white);
-    --filter-secondary-icon: var(--filter-always-white);
+    --filter-disabled-icon: invert(100%) opacity(30%);
+    --filter-primary-icon: invert(100%);
+    --filter-secondary-icon: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
 
     /* text */
     --primary-text: var(--color-text);
@@ -26,6 +29,9 @@
     /* other */
     --wash: var(--color-darkspot);
     --overlay-alpha-80: var(--overlay-on-media);
+    --hosted-view-selected-state: var(--color-darkspot);
+    /* other filters */
+    --filter-blue-link-icon: invert(73%) sepia(29%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(103.25%) hue-rotate(189deg) brightness(101%) contrast(101%);
 }
 
 ._1e8n: {
@@ -33,6 +39,6 @@
 }
 
 /* --- dark icons ---*/
-.a8c37x1j>path {
+.a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4>path {
     filter: var(--filter-always-white);
 }
