@@ -6,7 +6,7 @@
     --comment-background: var(--color-darkspot);
 
     /* cards and menus */
-    --card-background: var(--color-darkspot);
+    --card-background: var(--color-darkspot) !important; 
 
     /* dividers and borders */
     --media-inner-border: var(--color-highlight);
@@ -41,6 +41,22 @@
 
 ._1e8n: {
     filter: var(--filter-always-white);
+}
+
+/* --- Menus ---*/
+.cwj9ozl2{
+    --card-background: var(--color-darkspot);
+    --surface-background: var(--color-background);
+}
+.oo9gr5id{
+    color: var(--color-text);
+}
+.tdjehn4e{
+    --secondary-button-background: var(--color-highlight);
+}
+.j7g94pet, .b74d5cxt{
+    --card-background: var(--color-darkspot);
+    --shadow-inset: var(--color-darkspot);
 }
 
 /* --- dark icons ---*/
@@ -124,7 +140,7 @@ body, h2, ._ih3, ._1htf, ._1ht3, ._1tqi, ._1ht7, ._3szq, ._4_j5, ._1n-e,
 /* Typing animatio */
 ._1hbw ._5pd7 {
   background-color: #3e3e3e;
-}@Jakub Šebesta
+}
 
 /* message resend */
 ._879m {
