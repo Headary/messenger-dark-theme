@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Messenger Dark Theme",
     "author": "Headary",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Enable dark mode in inbrowser messenger.",
     "content_scripts": [
         {

@@ -32,6 +32,7 @@
 
     /* other */
     --wash: var(--color-darkspot);
+    --web-wash: var(--color-background);
     --overlay-alpha-80: var(--overlay-on-media);
     --hosted-view-selected-state: var(--color-darkspot);
     /* other filters */
