@@ -4,6 +4,7 @@
     --surface-background: var(--color-background);
     --messenger-reply-background: var(--color-darkspot);
     --comment-background: var(--color-darkspot);
+	--comment-footer-background: var(--color-darkspot);
 
     /* cards and menus */
     --card-background: var(--color-darkspot) !important; 
@@ -17,6 +18,9 @@
     --secondary-button-background: var(--color-highlight);
     --popover-background: var(--color-highlight);
 
+	/* voice message */
+	--progress-ring-neutral-foreground: var(--color-highlight) !important;
+
     /* hover */
     --media-hover: rgba(220,220,220,0.07);
     --hover-overlay: rgba(220,220,220,0.05);
@@ -27,7 +31,7 @@
     --filter-secondary-icon: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
 
     /* text */
-    --primary-text: var(--color-text);
+    --primary-text: var(--color-text) !important;
     --secondary-text: var(--color-text-secondary);
 
     /* other */
@@ -59,11 +63,38 @@
     --shadow-inset: var(--color-darkspot);
 }
 
+/* -- menu overlay -- */
+.ms7hmo2b {
+	background-color: var(--color-background);
+	opacity: 0.6;
+}
+
 /* --- dark icons ---*/
 .a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4>path {
     filter: var(--filter-always-white);
 }
+.sp_b6EwtWDtldw, .sp_9r6gWxIlGQ0 {
+	filter: var(--filter-always-white);
+}
 
+/* --- message text color --- */
+.pbevjfx6 {
+	color: var(--color-text) !important;
+}
+
+/* voice message */
+.rn3djb20 {
+	background-color: var(--color-text);
+}
+.q2y6ezfg {
+	background-color: var(--color-background);
+}
+.moj8do2t {
+	color: var(--color-text);
+}
+.crt8y2ji>path {
+	fill: var(--color-text) !important;
+}
 
 /*
 ---- OLD VERSION ----
