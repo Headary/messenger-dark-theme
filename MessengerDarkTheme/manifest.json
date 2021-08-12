@@ -1,39 +1,39 @@
 {
-    "manifest_version": 2,
-    "name": "Messenger Dark Theme",
-    "author": "Headary",
-    "version": "2.1.2",
-    "description": "Enable dark mode in inbrowser messenger.",
-    "content_scripts": [
-        {
-            "matches": [
-                "*://*.messenger.com/*"
-            ],
-            "css": [
-                "styles.css"
-            ],
-            "js": [
-                "options/inject.js"
-            ]
-        }
-    ],
-    "options_ui": {
-        "page": "options/options.html"
-    },
-    "permissions": [
-        "storage"
-    ],
-    "applications": {
-        "gecko": {
-            "id": "{2c6efd7e-6963-4cd4-b592-68481085db6d}"
-        }
-    },
-    "icons": {
-        "32": "icons/32.png",
-        "48": "icons/48.png",
-        "64": "icons/64.png",
-        "96": "icons/96.png",
-        "128": "icons/128.png",
-        "256": "icons/256.png"
-    }
+	"manifest_version": 2,
+	"name": "Messenger Dark Theme",
+	"author": "Headary",
+	"version": "2.1.3",
+	"description": "Enable dark mode in inbrowser messenger.",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.messenger.com/*"
+			],
+			"css": [
+				"styles.css"
+			],
+			"js": [
+				"options/inject.js"
+			]
+		}
+	],
+	"options_ui": {
+		"page": "options/options.html"
+	},
+	"permissions": [
+		"storage"
+	],
+	"applications": {
+		"gecko": {
+			"id": "{2c6efd7e-6963-4cd4-b592-68481085db6d}"
+		}
+	},
+	"icons": {
+		"32": "icons/32.png",
+		"48": "icons/48.png",
+		"64": "icons/64.png",
+		"96": "icons/96.png",
+		"128": "icons/128.png",
+		"256": "icons/256.png"
+	}
 }
