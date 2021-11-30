@@ -1,4 +1,4 @@
-:root {
+:root, .__fb-light-mode, .__fb-dark-mode {
     /* general background */
     --messenger-card-background: var(--color-background);
     --surface-background: var(--color-background);
