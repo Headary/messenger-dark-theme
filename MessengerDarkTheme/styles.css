@@ -96,6 +96,11 @@
 	fill: var(--color-text) !important;
 }
 
+/* message attachment */
+.acsorfik {
+	background-color: var(--color-darkspot);
+}
+
 /*
 ---- OLD VERSION ----
 */
