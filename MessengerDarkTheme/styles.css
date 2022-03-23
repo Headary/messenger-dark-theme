@@ -26,6 +26,7 @@
     --hover-overlay: rgba(220,220,220,0.05);
 
     /* icons */
+	--primary-icon: var(--color-text);
     --filter-disabled-icon: invert(100%) opacity(30%);
     --filter-primary-icon: invert(100%);
     --filter-secondary-icon: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
@@ -92,7 +93,7 @@
 .moj8do2t {
 	color: var(--color-text);
 }
-.crt8y2ji>path {
+.b7h9ocf4>path {
 	fill: var(--color-text) !important;
 }
 
