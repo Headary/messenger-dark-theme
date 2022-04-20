@@ -102,6 +102,15 @@
 	background-color: var(--color-darkspot);
 }
 
+/* voice message length */
+.lquwwe9x {
+	color: var(--color-text);
+}
+
+/* voice message play button */
+.q2y6ezfg > svg > path{
+	fill: var(--color-text);
+}
 /*
 ---- OLD VERSION ----
 */
