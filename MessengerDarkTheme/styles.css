@@ -15,9 +15,9 @@
     --divider: var(--color-highlight);
 
     /* buttons */
-    --secondary-button-background: var(--color-highlight);
+    --secondary-button-background: var(--color-highlight) !important;
     --popover-background: var(--color-highlight);
-
+	--secondary-button-background-floating: var(--color-highlight);
 	/* voice message */
 	--progress-ring-neutral-foreground: var(--color-highlight) !important;
 
@@ -40,6 +40,7 @@
     --web-wash: var(--color-background);
     --overlay-alpha-80: var(--overlay-on-media);
     --hosted-view-selected-state: var(--color-darkspot);
+	--progress-ring-neutral-foreground: var(--color-text) !important;
     /* other filters */
     --filter-blue-link-icon: invert(73%) sepia(29%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(103.25%) hue-rotate(189deg) brightness(101%) contrast(101%);
 }
@@ -77,11 +78,15 @@
 .sp_b6EwtWDtldw, .sp_9r6gWxIlGQ0 {
 	filter: var(--filter-always-white);
 }
-.b6ax4al1.m4pnbp5e.somyomsx.ahndzqod.g4fisb7v>path {
+.x1lliihq.x1k90msu.x2h7rmj.x1qfuztq.x1p6odiv>path {
 	fill: var(--color-text);
 }
-.g4fisb7v {
+.x1p6odiv {
 	color: var(--color-text);
+}
+
+.x1qhmfi1 {
+	background-color: var(--color-highlight);
 }
 
 /* --- message text color --- */
@@ -106,6 +111,9 @@
 /* message attachment */
 .acsorfik {
 	background-color: var(--color-darkspot);
+}
+.x1ybostu {
+	background-color: var(--color-highlight);
 }
 
 /* voice message length */
