@@ -4,7 +4,8 @@
     --surface-background: var(--color-background);
     --messenger-reply-background: var(--color-darkspot);
     --comment-background: var(--color-darkspot);
-	--comment-footer-background: var(--color-darkspot);
+    --comment-footer-background: var(--color-darkspot);
+    --chat-incoming-message-bubble-background-color: var(--color-darkspot);
 
     /* cards and menus */
     --card-background: var(--color-darkspot) !important; 
@@ -16,20 +17,26 @@
 
     /* buttons */
     --secondary-button-background: var(--color-highlight) !important;
+    --secondary-button-text: var(--color-text-secondary) !important;
     --popover-background: var(--color-highlight);
-	--secondary-button-background-floating: var(--color-highlight);
-	/* voice message */
-	--progress-ring-neutral-foreground: var(--color-highlight) !important;
+    --secondary-button-background-floating: var(--color-highlight);
+    --disabled-button-background: var(--color-highlight);
+
+    /* voice message */
+    --progress-ring-neutral-foreground: var(--color-highlight) !important;
 
     /* hover */
     --media-hover: rgba(220,220,220,0.07);
     --hover-overlay: rgba(220,220,220,0.05);
 
     /* icons */
-	--primary-icon: var(--color-text);
+    --primary-icon: var(--color-text) !important;
     --filter-disabled-icon: invert(100%) opacity(30%);
     --filter-primary-icon: invert(100%);
     --filter-secondary-icon: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
+    --background-deemphasized: var(--color-darkspot);
+    --always-black: var(--color-text) !important;
+    --icon-primary-color: var(--color-text) !important;
 
     /* text */
     --primary-text: var(--color-text) !important;
@@ -40,7 +47,7 @@
     --web-wash: var(--color-background);
     --overlay-alpha-80: var(--overlay-on-media);
     --hosted-view-selected-state: var(--color-darkspot);
-	--progress-ring-neutral-foreground: var(--color-text) !important;
+    --progress-ring-neutral-foreground: var(--color-text) !important;
     /* other filters */
     --filter-blue-link-icon: invert(73%) sepia(29%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(103.25%) hue-rotate(189deg) brightness(101%) contrast(101%);
 }
@@ -78,13 +85,14 @@
 .sp_b6EwtWDtldw, .sp_9r6gWxIlGQ0 {
 	filter: var(--filter-always-white);
 }
-.x1lliihq.x1k90msu.x2h7rmj.x1qfuztq.x1p6odiv>path {
+.x1lliihq.x1k90msu.x2h7rmj.x1qfuztq.x1p6odiv>path,
+.x1lliihq.x1k90msu.x2h7rmj.x1qfuztq.x198g3q0.xvy4d1p>path
+{
 	fill: var(--color-text);
 }
 .x1p6odiv {
 	color: var(--color-text);
 }
-
 .x1qhmfi1 {
 	background-color: var(--color-highlight);
 }
