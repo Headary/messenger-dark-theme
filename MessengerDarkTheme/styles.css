@@ -6,6 +6,7 @@
     --comment-background: var(--color-darkspot);
     --comment-footer-background: var(--color-darkspot);
     --chat-incoming-message-bubble-background-color: var(--color-darkspot);
+    --mwp-message-row-background: var(--color-background);
 
     /* cards and menus */
     --card-background: var(--color-darkspot) !important; 
