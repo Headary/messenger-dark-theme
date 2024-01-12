@@ -6,6 +6,7 @@
     --comment-background: var(--color-darkspot);
     --comment-footer-background: var(--color-darkspot);
     --chat-incoming-message-bubble-background-color: var(--color-darkspot);
+    --mwp-message-row-background: var(--color-background);
 
     /* cards and menus */
     --card-background: var(--color-darkspot) !important; 
@@ -21,6 +22,7 @@
     --popover-background: var(--color-highlight);
     --secondary-button-background-floating: var(--color-highlight);
     --disabled-button-background: var(--color-highlight);
+    --secondary-button-background-on-dark: var(--color-highlight);
 
     /* voice message */
     --progress-ring-neutral-foreground: var(--color-highlight) !important;
@@ -37,6 +39,7 @@
     --background-deemphasized: var(--color-darkspot);
     --always-black: var(--color-text) !important;
     --icon-primary-color: var(--color-text) !important;
+    --icon-tertiary-color: var(--color-text);
 
     /* text */
     --primary-text: var(--color-text) !important;
